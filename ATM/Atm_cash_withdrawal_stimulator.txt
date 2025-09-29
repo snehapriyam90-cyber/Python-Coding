@@ -1,0 +1,42 @@
+
+Problem Title: ATM Cash Withdrawal Simulator
+
+You are asked to simulate a simple ATM machine.
+Rules:
+1. The ATM only has ■2000, ■500, and ■100 notes.
+2. A user enters the amount they want to withdraw.
+3. The ATM should give the amount using the minimum number of notes possible.
+4. If the amount is not divisible by 100, print "Invalid Amount".
+
+Example:
+Input:
+3700
+Output:
+2000 x 1
+500 x 3
+100 x 2
+Input:
+1250
+Output:
+Invalid Amount
+
+
+Task Requirements:
+1. Take the withdrawal amount as input.
+2. Use conditional statements to check validity.
+3. Use loops (or repeated subtraction / division) to calculate the note count.
+4. Print the breakdown of notes.
+
+■ Input Format:
+- A single integer → withdrawal amount.
+■ Output Format:
+- Note breakdown or "Invalid Amount".
+
+
+■ Sample Test Case:
+Input:
+2800
+Output:
+2000 x 1
+500 x 1
+100 x 3
